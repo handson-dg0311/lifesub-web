@@ -10,6 +10,10 @@ image_org=dg0311
 # Application Settings
 replicas=1
 export_port=18080
+# Backend Service URLs
+react_app_member_url=http://20.249.207.220/member
+react_app_mysub_url=http://20.249.207.220/mysub
+react_app_recommend_url=http://20.249.207.220/recommend
 
 # Resource Settings
 resources_requests_cpu=256m
